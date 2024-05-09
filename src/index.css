@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities{
+  .btn-gr{
+    @apply bg-gradient-to-r from-[#8d53c7] to-purple-400
+  }
+  .btn-gr:hover{
+    @apply bg-gradient-to-r from-[#8d53c7] to-purple-400
+  }
+  .component {
+    background: radial-gradient(ellipse at center, transparent 20%,rgb(0 0 0 / 0.15) 25%,rgb(0 0 0 / 0.45) 40%, rgb(0 0 0 / 0.80) 60%, black 100%);
+  }
+
+  .rotate{
+    transform: rotateX(50deg);
+  }
+}
